@@ -1,0 +1,21 @@
+Below is a list of what I believe qualifies as the top 10 'best hospitals' based on the highest average effective care as well as readmissions score.
+I believe the highest average score signifies a more consistent quality rating since this ignores the
+number of procedures as opposed to an aggregate score for each hospital and hopefully reduces variability in scores across procedures for each hospital.
+
+Provider_ID Hospital_Name									Agg_Score 	Avg_Score	Var_Score
+310002  	NEWARK BETH ISRAEL MEDICAL CENTER       		5311    	87.07   	27643.96
+330202  	KINGS COUNTY HOSPITAL CENTER    				5200    	85.25   	18539.43
+450289  	HARRIS HEALTH SYSTEM    						4884    	80.07   	11966.32
+050060  	COMMUNITY REGIONAL MEDICAL CENTER       		4842    	79.38   	13946.63
+330101  	NEW YORK-PRESBYTERIAN HOSPITAL  				4980    	77.81   	9090.56
+330306  	LUTHERAN MEDICAL CENTER 						4667    	76.51   	11355.92
+330141  	BROOKHAVEN MEMORIAL HOSPITAL MEDICAL CENTER     4663    	76.44   	11681.92
+330128  	ELMHURST HOSPITAL CENTER        				4655    	76.31   	9848.25
+050292  	RIVERSIDE COUNTY REGIONAL MEDICAL CENTER        4651    	76.25   	10842.12
+330056  	BROOKLYN HOSPITAL CENTER AT DOWNTOWN CAMPUS     4643    	76.11   	10610.86
+
+
+
+
+
+

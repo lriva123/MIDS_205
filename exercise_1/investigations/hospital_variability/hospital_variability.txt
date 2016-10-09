@@ -1,0 +1,16 @@
+Below is a list of 10 procedures that experience the highest variance in scores across hospitals between effective care and readmission procedures.
+Since variance measures variability in the score, I believe this is the best approach to measure
+procedural variability across hospitals.
+
+Measure_ID	Measure_Name															Agg_Score	Avg_Score	Var_Score
+ED_1b   	Median Time from ED Arrival to ED Departure for Admitted ED Patients   	954970   	205.11  	20147.57
+ED_2b   	Admit Decision Time to ED Departure Time for Admitted Patients  		344421 		73.97    	4717.52
+OP_18b  	Median Time from ED Arrival to ED Departure for Discharged ED Patients 	478128   	116.3   	4427.25
+AMI_2   	Aspirin Prescribed at Discharge 										217749  	46.77   	2433.88
+VTE_4   	Venous Thromboembolism Patients Receiving Unfractionated Heparin with 
+			Dosages/Platelet Count Monitoring by Protocol or Nomogram 				202062  	43.4    	2418.41
+AMI_10  	Statin Prescribed at Discharge  										213532  	45.86   	2387.3
+STK_2   	Discharged on Antithrombotic Therapy    								263561  	56.61   	2385.82
+STK_5   	Antithrombotic Therapy By End of Hospital Day 2 						261526  	56.17   	2353.07
+OP_4    	Aspirin at Arrival      												201558  	49.03   	2345.03
+STK_10  	Assessed for Rehabilitation     										262676  	56.42   	2320.38

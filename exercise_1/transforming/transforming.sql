@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS hospitals_c;
+CREATE TABLE hospitals_c AS SELECT * FROM hospitals;
+DROP TABLE IF EXISTS measures_c;
+CREATE TABLE measures_c AS SELECT * FROM measures;
+DROP TABLE IF EXISTS effective_care_c;
+CREATE TABLE effective_care_c AS SELECT Provider_ID, Condition, Measure_ID, CAST(TRANSLATE(Score, 'Not Available', '0') AS BIGINT) As Score, Sample, Measure_Start_Date, Measure_End_Date FROM effective_care;
+DROP TABLE IF EXISTS readmissions_c;
+CREATE TABLE readmissions_c AS SELECT Provider_ID, Measure_ID, Compared_to_National, CAST(TRANSLATE(Denominator, 'Not Available', '0') AS BIGINT) AS Denominator, CAST(TRANSLATE(Score, 'Not Available', '0') AS BIGINT) AS Score, CAST(TRANSLATE(Lower_Estimate, 'Not Available', '0') AS BIGINT) AS Lower_Estimate, CAST(TRANSLATE(Higher_Estimate, 'Not Available', '0') AS BIGINT) AS Higher_Estimate, Footnote, Measure_Start_Date, Measure_End_Date FROM readmissions;
+DROP TABLE IF EXISTS surveys_responses_c;
+CREATE TABLE surveys_responses_c AS SELECT Provider_Number AS Provider_ID, CAST(TRANSLATE(HCAHPS_Base_Score, 'Not Available', '0') AS BIGINT) AS HCAHPS_Base_Score, CAST(TRANSLATE(HCAHPS_Cons_Score, 'Not Available', '0') AS BIGINT) AS HCAHPS_Cons_Score FROM surveys_responses;

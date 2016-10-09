@@ -1,0 +1,18 @@
+Below is a list of what I believe qualifies as the top 10 'best states' based on the highest average effective care as well as readmissions score.
+I believe the highest average score signifies a more consistent quality rating since this ignores the
+number of procedures as opposed to an aggregate score for each state and hopefully reduces variability in scores across procedures for each state.
+
+State	Agg_Score	Avg_Score	Var_Score
+DE      24949   	63.65   	4520.55
+NJ      246605  	62.69   	4199.16
+RI      39897   	57.24   	3294.88
+DC      28751   	56.49   	5259.95
+CT      104661  	56.48   	3670.35
+FL      610388  	55.05   	3149.27
+MA      205907  	54.0    	3466.34
+NY      562608  	53.16   	4376.21
+CA      1037223 	51.81   	3711.7
+VA      262994  	51.75   	3025.67
+
+
+
