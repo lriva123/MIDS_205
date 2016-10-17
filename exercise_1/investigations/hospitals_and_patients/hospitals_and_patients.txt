@@ -1,0 +1,7 @@
+When running a correlation between the average hospital score from effective care and readmission procedures against the survey questions, I decided to run the correlation between
+the HCAHPS_Base_Score and HCAHPS_Consistency_Score of the survey results.  These two scores appeared to be the summary results of the many survey questions.  The correlation coefficients
+that I got for average hospital score and HCAHPS_Base_Score is around -0.50.  This appeared a bit strange to me that the hospital average score and patient base score would have such a 
+fairly high negative correlation.  Therefore, I decided to see the correlation coefficient between average hospital score and HCAHPS_Consistency_Score, which was around -0.06.  It's 
+probaby fair to say that there is almost no correlation between these two and they may not be measuring the same thing.  However, it is still strange that there is a fairly high
+negative correlation between average hospital score and patient base score.  I would think that hospital scores and patient survey results would be somewhat positively 
+correlated.
