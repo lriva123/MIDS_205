@@ -1,4 +1,5 @@
-Clone this directory to UCB MIDS W205 EX2-FULL AMI instance with a running postgres, python and stream parse applications.
+Clone this directory https://github.com/lriva123/MIDS_205/tree/master/exercise_2 to UCB MIDS W205 EX2-FULL AMI instance 
+with a running postgres, python and stream parse applications.
 
 1. cd <where the above directory got cloned>/tweetwordcount
 2. sparse run
