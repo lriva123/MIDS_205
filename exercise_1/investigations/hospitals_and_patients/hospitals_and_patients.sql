@@ -3,7 +3,7 @@ create table provider_score as select provider_id, avg(score) as avg_hospital_sc
 create table patient_score as select provider_id, avg(HCAHPS_Base_Score) as avg_patient_base_score, avg(HCAHPS_Cons_Score) as avg_patient_cons_score from surveys_responses_c group by provider_id;
 
 select corr(prs.avg_hospital_score, pas.avg_patient_base_score) as hos_pat_corr from provider_score prs join patient_score pas on prs.provider_id = pas.provider_id;
--0.5010161165696573
+
 select corr(prs.avg_hospital_score, pas.avg_patient_cons_score) as hos_pat_corr from provider_score prs join patient_score pas on prs.provider_id = pas.provider_id;
--0.05985816622314921
+
 
